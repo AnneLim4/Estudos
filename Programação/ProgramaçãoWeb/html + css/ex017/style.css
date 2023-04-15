@@ -1,0 +1,6 @@
+@charset "UTF-8"
+
+body{
+    /* Shorthand font */
+   font: italic lighter 1em Arial, sans-serif;
+}

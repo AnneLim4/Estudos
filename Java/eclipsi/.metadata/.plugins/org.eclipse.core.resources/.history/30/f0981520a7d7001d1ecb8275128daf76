@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.util.Locale;
+
+public class vendas {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		double codigoProduto, quantProduto, valorProduto;
+		
+		codigoProduto = sc.nextDouble();
+		quantProduto = sc.nextDouble();
+		valorProduto = sc.nextDouble();
+		System.out.println(codigoProduto);
+		System.out.println(quantProduto);
+		System.out.println(valorProduto);
+		
+		sc.close();
+	}
+
+}

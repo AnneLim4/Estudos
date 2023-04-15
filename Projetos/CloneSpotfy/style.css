@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+
+/*  Para que o padding dos elementos não afete a largura*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body{ 
+    font-family: 'Roboto', sans-serif; 
+}
+
+.btn-primary{
+    background-color: #1DB954;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.btn-primary:hover{
+    background-color: #157e3a;
+    padding: 20px 35px;
+}
+
+li:hover {
+    color: #1DB954;
+    font-size: 20px;
+}
+
+.logo{
+    height: 40px;
+    width: auto ;
+}
+
+#navbar{
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;
+
+}
+/* Seleciona a terceira li filha da ul, */
+#navbar .navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(img/showcase.webp) center center/cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+#showcase .showcase-container h2 {
+    font-size: 4.5em;
+}
+
+#showcase .showcase-container p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+#footer .footer-content{
+    display: flex;
+    width: 605;
+    margin: auto;
+    padding: 90px 0;
+}
+
+#footer .footer-content .footer-menu{
+    margin: 0 40px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item{
+    margin: 25px 0;
+}
+
+#footer .footer-content .footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+.socials{
+    display: flex;
+}
+
+/* os icones também são textos */
+.socials i {
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+}
+
+.footer-info .footer-info-itens{
+    display: flex;
+    list-style: none;
+    
+}
+
+.footer-info .footer-info-itens .footer-info-item{
+    margin: 0 10px;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.7rem;
+}
+
+
+
+.footer-info .rights .country {
+    display: flex;
+}
+
+.footer-info .rights .country .brasil{
+    height: 20px;
+    width: auto;
+    display: inline-block;
+}

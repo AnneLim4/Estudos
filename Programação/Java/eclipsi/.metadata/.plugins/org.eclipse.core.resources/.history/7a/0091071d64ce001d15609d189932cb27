@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+
+public class entradaDeDados {
+
+	public static void main(String[] args) {
+//		Codigo para entrada de dados String 
+//		Scanner sc = new Scanner(System.in);
+//		String x;
+//		x = sc.next();
+//		System.out.println("Você digitou o valor, "+ x);
+//		
+//		sc.close();
+		
+//		codigo com variavel int
+//		Scanner sc = new Scanner(System.in);
+//		int x;
+//		x = sc.nextInt();
+//		System.out.println("Voce digitou,"+ x);
+//		
+//		sc.close();
+		
+//		Codigo com variavel float
+//		Scanner sc = new Scanner(System.in);
+//		double x;
+//		x = sc.nextDouble();
+//		System.out.println("Seu codigo é, " + x);
+//		
+//		sc.close();
+		
+//		codigo com varial char, ler caracteres
+		Scanner sc = new Scanner(System.in);
+		double x;
+		x = sc.next().charAt(0);
+		System.out.println("Você digitou, " + x);
+		
+		sc.close();
+	}
+
+}

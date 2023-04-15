@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		double x =5;
+		 double y = 7;
+		 double z = 20.0;
+		 double a, b, c;
+		 
+		 a = Math.sqrt(x);
+		 b = Math.sqrt(y);
+		 c = Math.sqrt(z);
+
+
+	}
+
+}

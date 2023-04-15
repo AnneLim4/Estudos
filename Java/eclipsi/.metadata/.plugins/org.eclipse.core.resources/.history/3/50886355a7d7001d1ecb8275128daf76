@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.Locale;
+
+public class vendas {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		int cod1, cod2, qte1, qte2;
+		double val1, val2, total;
+		
+		cod1 = sc.nextInt();
+		cod2 = sc.nextInt();
+		qte1 = sc.nextInt();            
+		qte2 = sc.nextInt();            
+		
+		sc.close();
+	}
+
+}
