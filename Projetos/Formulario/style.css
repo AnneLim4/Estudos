@@ -1,71 +1,56 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Roboto:wght@100;300&family=Ubuntu:wght@300;400;500&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;500;600;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-/*
-font-family: 'Roboto Mono', monospace;
-
-font-family: 'Roboto', sans-serif;
-*/
 
 :root{
-    
-    --cor1: #32292F ;
-    --cor2: #ECE2D0 ;
-    --cor3: #D5B9B2 ;
-    --cor4: #A26769 ;
-
-
-    --font-padrao: 'Roboto', sans-serif;
-    --font-destaque: 'Roboto Mono', monospace, Sans-serif;
+    --fontTexto: 'Nunito', sans-serif;
+    --fontTitulo1: 'Roboto', sans-serif;
+    --fontTitulo2: 'Ubuntu', sans-serif;
+    --cor1: #FBF7F7;
+    --cor2: #B3C6C2;
+    --cor3: #478BBD;
+    --cor4: #9BDBD3;
 }
 
 body{
-    font-family: var(--font-padrao);
-    background-color: var(--cor3);
-    color: #191919;
-    margin-left: 26%;
-    margin-right: 26%;
-    margin-top: 2%;
+    background-color: #3f83aa;
+    display: flex;
     justify-content: center;
-}
-#cabecalho{
-    
-    font-size: 1.25em;
+    align-items: center;
+    height: 100vh;
 }
 
-h1{
-    font-family: var(--font-destaque);
-    color: #32292F;
-}
-#cabecalho > p{
-
-}
-#cadastro{
-    border-radius: 10px 10px 0 0;
-    margin-left: -1px;
-    margin-right: -1px;
-}
 form{
-    background-color: var(--cor2);
-    margin: auto;
+    background-color: var(--cor1);
+    width: 400px;
+    height: auto;
+    padding: 30px;
+    border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.507);
 }
-
-
-#checkbox{
-    margin-left: -1px;
-    margin-right: -1px;
+.camp{
+    border-radius: 5px;
+    width: 275px;
+    height: 30px;
+    margin: 13px;
 }
-
-button{
-    
+.titulo{
+    font-family: var(--fontTitulo2);
+    color: var(--cor3);
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5em;
+}
+#listas{
+    list-style: none;
+    text-decoration: none;
+}
+#submit{
+    text-align: center;
+}
+p{
+    color: var(--cor3);
+    font-weight: bold;
+    font-family: var(--fontTexto);
+    font-size: 14px;
 }
