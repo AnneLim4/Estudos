@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(212, 147, 61);
+}
+
+main {
+    background-color: gray;
+}
+
+.num{
+    border-radius: 9px;
+    width: 50px;
+    height: 30px;
+}
+.bottonsG{
+    border-radius: 9px;
+    width: 50px;
+    height: 30px;
+    padding: 10px 55px 23px 17px;
+}

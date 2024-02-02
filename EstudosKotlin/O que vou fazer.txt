@@ -1,0 +1,36 @@
+O que vou fazer:
+
+
+Desenvolvimento de novas funcionalidades para o sistema;
+Manutenção e melhoria de código de funcionalidade existente;
+Desenvolvimento de testes unitários para o sistema;
+Auxiliar a equipe de suporte e implantação com questões internas e necessidades de clientes;
+Integração do sistema Aloque no app gestão;
+Desenvolver o novo app Aloque;
+Migração de código Javascript para Typescript;
+Versionamento e publicação de aplicativos na Play Store e App Store;
+Gerenciamento de estados no app
+Realizar requisições nas APIs
+
+
+Requirements And Qualifications
+
+
+Pré-requisitos e Habilidades:
+
+
+Conhecimento em React Native e Typescript;
+Conhecimento em Redux;
+Conhecimento em Axios;
+Conhecimento em Git e Git Flow;
+Conhecimento em React Navigation;
+Disciplina para executar tarefas do dia a dia;
+Organização e pró-atividade;
+Boa comunicação interpessoal;
+
+
+Diferenciais
+
+
+Experiência com metodologias ágeis;
+Experiência com a ferramenta de gerenciamento de projetos Taiga;

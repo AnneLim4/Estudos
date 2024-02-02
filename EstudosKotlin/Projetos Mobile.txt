@@ -1,0 +1,17 @@
+1-Aplicativo de tempo;
+  °API gratuita: the Open weather map
+
+2-Conversão de moeda/ Cotação de moeda;
+ °Programação reativa;
+ °api publicas;
+
+3-Aplicativo de Buzzfeed;
+ °Criar aplicativos de quiz;
+ 
+4-Aplicativo de chat;
+  °gerenciamento de eventos
+  °Programação orientada a protocolos;
+  ° sendbird sdk;
+
+5-Aplicativo de musica;
+  
