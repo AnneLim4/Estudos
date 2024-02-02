@@ -53,4 +53,7 @@ function num8(){
 function num9(){
     let nu9 = document.getElementById('9')
     res.innerHTML += "9"
+function displayNum(n1) {
+    Calculator.text1.value = Calculator.text1.value + n1; 
+ }
 }

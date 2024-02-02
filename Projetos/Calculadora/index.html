@@ -8,14 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        
-    </form>
+    <main>
+        <form action="" name="Calculator">
+            <input type="text" class="text Maincolor" name="text1" disabled>
+            <input type="button" class="text1 Maincolor" name="text12" value="C" onclick="location.reload()">
+<br>
+
+<!-- primeira linha com sinal de soma -->
+            <input type="button" class="num Maincolor" name="btn7" value="7" onclick="displayNum(btn7.value)">
+            <input type="button" class="num Maincolor" name="btn8" value="8" onclick="displayNum(btn8.value)">
+            <input type="button" class="num Maincolor" name="btn9" value="9" onclick="displayNum(btn9.value)">
+            <input type="button" class="num Orange" name="addbtn" value="+" onclick="displayNum(addbtn.value)">
+<br>
+
+<!-- segunda linha com sinal de subtração -->
+            <input type="button" class="num Maincolor" name="btn4" value="4" onclick="displayNum(btn4.value)">
+            <input type="button" class="num Maincolor" name="btn5" value="5" onclick="displayNum(btn5.value)">
+            <input type="button" class="num Maincolor" name="btn6" value="6" onclick="displayNum(btn6.value)">
+            <input type="button" class="num Blue" name="subbtn" value="-" onclick="displayNum(subbtn.value)">
+<br>
+
+<!-- terceira linha com sinal de multiplicação -->
+            <input type="button" class="num Maincolor" name="btn1" value="1" onclick="displayNum(btn1.value)">
+            <input type="button" class="num Maincolor" name="btn2" value="2" onclick="displayNum(btn2.value)">
+            <input type="button" class="num Maincolor" name="btn3" value="3" onclick="displayNum(btn3.value)">
+            <input type="button" class="num Purple" name="multbtn"numMaincolor value="*" onclick="displayNum(multbtn.value)">
+<br>
+            <input type="button" class="num Pink" name="dotbtn" value="." onclick="displayNum(dotbtn.value)">
+            <input type="button" class="num Maincolor" name="btn0" value="0" onclick="displayNum(btn0.value)">
+            <input type="button" class="num Green" name="eqlbtn" value="=" onclick="text1.value = eval(text1.value)">
+            <input type="button" class="num Red" name="divbtn" value="/" onclick="displayNum(divbtn.value)">
+        </form>
+    </main>
+
+   <script src="script.js"></script>
 </body>
+
 </html>
