@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 
 *{
@@ -69,3 +70,61 @@ form{
 button{
     
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Roboto:wght@100;300&family=Ubuntu:wght@300;400;500&display=swap');
+
+
+:root{
+    --fontTexto: 'Nunito', sans-serif;
+    --fontTitulo1: 'Roboto', sans-serif;
+    --fontTitulo2: 'Ubuntu', sans-serif;
+    --cor1: #FBF7F7;
+    --cor2: #B3C6C2;
+    --cor3: #478BBD;
+    --cor4: #9BDBD3;
+}
+
+body{
+    background-color: #3f83aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: var(--cor1);
+    width: 400px;
+    height: auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.camp{
+    border-radius: 5px;
+    width: 275px;
+    height: 30px;
+    margin: 13px;
+}
+.titulo{
+    font-family: var(--fontTitulo2);
+    color: var(--cor3);
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5em;
+}
+#listas{
+    list-style: none;
+    text-decoration: none;
+}
+#submit{
+    text-align: center;
+}
+p{
+    color: var(--cor3);
+    font-weight: bold;
+    font-family: var(--fontTexto);
+    font-size: 14px;
+}
+>>>>>>> 02e65d1527847487d8b8d55f1c8796d967d93559
