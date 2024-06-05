@@ -1,0 +1,14 @@
+Marron escuro:
+483D3F
+
+Violeta:
+7A28CB
+
+Bege:
+F4EBD9
+
+cinza:
+A39A92
+
+Marron claro:
+77685D

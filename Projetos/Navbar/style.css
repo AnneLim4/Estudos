@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #687180;
+}
+
+.Search{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url('img/uicons-bold-rounded/svg/fi-br-search.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+nav{
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    padding-left: 8px;
+    display: flex;
+    width: 230px;
+    height: 400px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 2;
+}
+
+nav p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+nav  p + ul{
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+nav i {
+    padding-right: 5px;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+li:hover{
+    background-color: #585c6359;
+    border-radius: 5px;
+    margin-right: 50px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

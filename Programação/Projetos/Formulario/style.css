@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*
+font-family: 'Roboto Mono', monospace;
+
+font-family: 'Roboto', sans-serif;
+*/
+
+:root{
+    
+    --cor1: #32292F ;
+    --cor2: #ECE2D0 ;
+    --cor3: #D5B9B2 ;
+    --cor4: #A26769 ;
+
+
+    --font-padrao: 'Roboto', sans-serif;
+    --font-destaque: 'Roboto Mono', monospace, Sans-serif;
+}
+
+body{
+    font-family: var(--font-padrao);
+    background-color: var(--cor3);
+    color: #191919;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 2%;
+    justify-content: center;
+}
+#cabecalho{
+    
+    font-size: 1.25em;
+}
+
+h1{
+    font-family: var(--font-destaque);
+    color: #32292F;
+}
+#cabecalho > p{
+
+}
+#cadastro{
+    border-radius: 10px 10px 0 0;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+form{
+    background-color: var(--cor2);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.507);
+}
+
+
+#checkbox{
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+button{
+    
+}

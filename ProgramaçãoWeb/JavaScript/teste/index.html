@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function envia(){
+            var nome = document.getElementById("IDnome");
+
+            if (nome.value != ""){
+                alert(nome.value + "os seus dados foram enviados com sucesso!");
+            }
+
+        }
+
+    </script>
+
+</head>
+<body>
+        <main class="container">
+
+       
+
+        <h4>Fale Conosco</h4>
+        <form method="post" action="">
+
+            <div>
+                <label>Nome</label>
+                <input type="text" id="IDnome" name="nome" placeholder="Nome aqui">
+            </div><br>
+            <div>
+                <label>Assunto</label>
+                <input type="text" size="40" id="assunto">
+            </div><br>
+            <div>
+                <label>Mensagem</label>
+                <textarea placeholder="Descreva o problema" id="mensagem" cols="30" rows="5"></textarea>
+
+            </div>
+            <div>
+                <input type="submit" name="submit" value="Enviar" id="enviar" class="butao_enviar">
+            </div>
+        </form>
+
+        
+         </main>
+</body>
+</html>

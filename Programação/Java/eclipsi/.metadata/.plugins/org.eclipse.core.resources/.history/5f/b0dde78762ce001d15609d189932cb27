@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class entradaDeDados {
+
+	public static void main(String[] args) {
+//		Codigo para entrada de dados String 
+//		Scanner sc = new Scanner(System.in);
+//		String x;
+//		x = sc.next();
+//		System.out.println("Você digitou o valor, "+ x);
+//		
+//		sc.close();
+		
+		Scanner sc = new Scanner(System.in);
+		int x;
+		x = sc.nextInt();
+		System.out.println("Voce digitou,"+ x);
+		
+		sc.close();
+	}
+
+}
